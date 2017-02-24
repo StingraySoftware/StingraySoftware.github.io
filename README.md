@@ -1,3 +1,3 @@
 # Stingray
 
-This is a website for the Stingray software, a new spectral timing package
+This is the website for Stingray, a community-developed X-ray spectral-timing software package in Python.
