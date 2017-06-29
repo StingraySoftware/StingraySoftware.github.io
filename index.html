@@ -4,11 +4,9 @@
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Stingraysoftware.GitHub.io : Webpage for the Stingray project">
-
+    <meta name="description" content="Stingray is a new community-developed spectral-timing software package in Python for astrophysical data.">
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>Stingraysoftware.GitHub.io</title>
+    <title>Stingray Software</title>
   </head>
 
   <body>
@@ -16,10 +14,11 @@
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
         <header class="inner">
-          <a id="forkme_banner" href="https://github.com/StingraySoftware">View on GitHub</a>
+          <a id="forkme_banner" alt="View Stingray on GitHub" href="https://github.com/StingraySoftware">View on GitHub</a>
 
-          <h1 id="project_title">Stingraysoftware.GitHub.io</h1>
-          <h2 id="project_tagline">Webpage for the Stingray project</h2>
+          <h1 id="project_title">Stingray</h1>
+          <h2 id="project_tagline">Next-generation spectral-timing software</h2>
+<!--           <h2 id="project_tagline">Next-generation spectral-timing software for astronomy applications and beyond</h2> -->
 
         </header>
     </div>
@@ -27,31 +26,59 @@
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
-        <h3>
-<a id="stingray" class="anchor" href="#stingray" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Stingray</h3>
+      
+      <img id="logo" src="images/stingray_logo.png" alt="Stingray Software logo" width="300" height="295"/>
+      
+<!--         <h3><a id="stingray" class="anchor" href="#stingray" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Stingray</h3> -->
 
-<p>Stingray is a new spectral timing software package for astrophysical X-ray (and more) data. </p>
+<p>Stingray is a new community-developed spectral-timing software package in Python for astrophysical data.</p>
 
-<h4>
-<a id="the-vision" class="anchor" href="#the-vision" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>The vision</h4>
+<h4><a id="the-vision" class="anchor" href="#the-vision" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>The vision</h4>
 
-<p>There are a number of official software packages for X-ray spectral fitting (Xspec, ISIS, Sherpa, ...). Such a widely used and standard software package does not exist for X-ray <em>timing</em>, that remains for now mostly done with custom software. During the workshop <a href="http://www.lorentzcenter.nl/lc/web/2016/720/info.php3?wsid=720&amp;venue=Oort">The Spectral Timing Revolution</a>, a group of X-ray astronomers and developers have decided to agree on a common platform to develop a new software package. This software package will merge existing efforts for a timing package in Python, and be structured with the best guidelines for modern open-source programming, following the example of <a href="www.astropy.org">Astropy</a>. This software will have an easily accessible scripting interface (possibly a GUI) and a public API for power users. The ultimate goal is to provide the community with a package that eases the learning curve for the advanced spectral timing techniques with a correct statistical framework.</p>
+<p>There are a number of official software packages for X-ray spectral fitting (XSPEC, ISIS, Sherpa, ...). 
+Such a widely used and standard software package does not exist for X-ray <em>timing</em>, so for now it remains mostly done with custom, proprietary software. 
+During the 2016 workshop <a alt="Lorentz Center workshop: The X-ray Spectral-Timing Revolution 2016" href="http://www.lorentzcenter.nl/lc/web/2016/720/info.php3?wsid=720&amp;venue=Oort">The X-ray Spectral-Timing Revolution</a>, a group of X-ray astronomers and developers decided to agree on a common platform to develop a new software package. 
+This software package will merge existing efforts for a timing package in Python and provide the basis for developing <em>spectral</em>-timing analysis tools, and be structured with the best guidelines for modern open-source programming, following the example of <a alt="Astropy" href="http://www.astropy.org">Astropy</a>. 
+This software will have an easily accessible scripting interface (possibly a GUI) and a public API for power users. 
+The ultimate goal is to provide the community with a package that eases the learning curve for advanced spectral-timing techniques, with a correct statistical framework.</p>
 
-<h4>
-<a id="previous-projects-that-are-being-merged-in-stingray" class="anchor" href="#previous-projects-that-are-being-merged-in-stingray" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Previous projects that are being merged in Stingray</h4>
+<h4><a id="how-to-get-involved" class="anchor" href="#how-to-get-involved" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to get involved</h4>
+
+<p>We encourage you to get involved with Stingray in any way you can! 
+First, read through the <a alt="Stingray: README" href="https://github.com/StingraySoftware/stingray/blob/master/README.rst">README</a>. 
+Then, fork the <a alt="Stingray: stingray repository" href="https://github.com/StingraySoftware/stingray">stingray</a> and <a alt="Stingray: notebook repository" href="https://github.com/StingraySoftware/notebooks">notebooks</a> repositories (if you need a primer on GitHub and git version control, <a alt="Git tutorials for beginners" href="http://sixrevisions.com/resources/git-tutorials-beginners/">look here</a>) and work your way through the Jupyter notebook tutorials for the main modules. 
+Once you've familiarized yourself with the basics of Stingray, go to the <a alt="Stingray: issues" href="https://github.com/stingraysoftware/stingray/issues">Stingray issues page</a> and try to tackle one! 
+Other ways to get involved are outlined on the <a alt="Timelab project ideas" href="http://timelabtechnologies.com/ideas.html">project ideas page</a>, along with some astrophysical background/motivation. 
+Finally, you can read <a alt="Speakerdeck Stingray slides PyAstro16" href="https://speakerdeck.com/abigailstev/stingray-pyastro16">these slides</a> from an early talk on Stingray at the Python in Astronomy 2016 conference.</p>
+<p>For organizing and coordinating the software development, we have a Slack group and a mailing list -- please use <a alt="Join Stingray on Slack" href="https://stingray-slack.herokuapp.com/">this link for Slack</a> or send <a alt="Stingray: people" href="https://github.com/orgs/StingraySoftware/people">one of us</a> an email to join.</p>
+
+<h4><a id="previous-projects-being-merged-in-stingray" class="anchor" href="#previous-projects-being-merged-in-stingray" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Previous projects being merged in Stingray</h4>
 
 <ul>
 <li><p>Daniela Huppenkothen's original Stingray</p></li>
-<li><p>Matteo Bachetti's <a href="https://github.com/matteobachetti/MaLTPyNT">MaLTPyNT</a></p></li>
-<li><p>Simone Migliari's and Paul Balm's (...) </p></li>
+<li><p>Matteo Bachetti's <a alt="MaLTPyNT: Matteo's Libraries and Tools in Python for NuSTAR Timing" href="https://github.com/matteobachetti/MaLTPyNT">MaLTPyNT</a></p></li>
+<li><p>Abigail Stevens' RXTE power spectra code and phase-resolved spectroscopy code</p></li>
+<li><p>Simone Migliari's and Paul Balm's X-ray data exploration GUI commissioned by ESA </p></li>
 </ul>
+
+<h4><a id="citing-stingray" class="anchor" href="#citing-stingray" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Citing Stingray</h4>
+<p>Currently, the best way to cite Stingray in papers and other projects is with our <a alt="ASCL Stingray" href="http://ascl.net/1608.001">Astrophysics Source Code Library entry</a>. Stay tuned for the first version release later in 2017.
+<br/><a href="http://ascl.net/1608.001"><img src="https://img.shields.io/badge/ascl-1608.001-blue.svg?colorB=262255" alt="ascl:1608.001" /></a></p>
+
+<h4><a id="acknowledgements" class="anchor" href="#acknowledgements" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Acknowledgements</h4>
+<p>Thank you to JetBrains for the free use of <a alt="JetBrains PyCharm" href="https://www.jetbrains.com/pycharm/">PyCharm</a>.</p>
+<p>Stingray participated in the <a alt="Google Summer of Code (GSoC)" href="https://summerofcode.withgoogle.com/">Google Summer of Code</a> in 2016 under <a alt="Timelab technologies" href="http://timelabtechnologies.com/">Timelab</a>.</p>
+<a href="https://www.python.org/"><img id="python" src="images/python-powered-w-200x80.png" alt="Python logo" width="200" height="80"/></a>
+<a href="https://www.jetbrains.com/pycharm/"><img id="pycharm" src="images/icon_PyCharm.png" alt="PyCharm logo" width="80" height="80"/></a>
+<a href="https://summerofcode.withgoogle.com/"><img id="GSoC" src="images/GSoC-icon-192.png" alt="Google Summer of Code GSoC logo" width="80" height="80"/></a>
+
       </section>
     </div>
 
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
-        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+        <p>Published with <a alt="GitHub pages" href="https://pages.github.com">GitHub Pages</a></p>
       </footer>
     </div>
 
