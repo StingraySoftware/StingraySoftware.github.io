@@ -36,11 +36,15 @@
 <h4><a id="the-vision" class="anchor" href="#the-vision" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>The vision</h4>
 
 <p>There are a number of official software packages for X-ray spectral fitting (e.g., XSPEC, ISIS, Sherpa).
-Such a widely-used and standard software package did not exist for X-ray <em>timing</em>, so it was mostly done with custom, proprietary software.
+Such widely-used, flexible, and standard software packages did not exist for X-ray <em>timing</em>, so it was mostly done with custom, proprietary software.
 During the 2016 workshop <a alt="Lorentz Center workshop: The X-ray Spectral-Timing Revolution 2016" href="http://www.lorentzcenter.nl/lc/web/2016/720/info.php3?wsid=720&amp;venue=Oort">The X-ray Spectral-Timing Revolution</a>, a group of X-ray astronomers and developers decided on a common platform to develop a new software package.
-This software package, Stingray, merges existing efforts for a timing package in Python and provide the basis for developing <em>spectral</em>-timing analysis tools, and be structured with the best guidelines for modern open-source programming, following the example of <a alt="Astropy" href="http://www.astropy.org">Astropy</a>.
-Stingray has an easily accessible scripting interface (<a href="https://hendrics.readthedocs.io/en/master/">HENDRICS</a>), an affiliated GUI (<a href="https://github.com/StingraySoftware/dave">DAVE</a>), and a public API for power-users.
+This software package, Stingray, provides the basis for developing <em>spectral</em>-timing analysis tools, and is structured with the <a alt="Astropy" href="http://www.astropy.org">Astropy</a> guidelines for modern open-source scientific programming.
+Stingray has a scripting interface (<a href="https://hendrics.readthedocs.io/en/master/">HENDRICS</a>), an affiliated GUI (<a href="https://github.com/StingraySoftware/dave">DAVE</a>), and a public API for power-users.
 Our goal is to provide the community with a package that eases the learning curve for advanced spectral-timing techniques, with a correct statistical framework.</p>
+
+<h4><a id="how-to-download" class="anchor" href="#how-to-download" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to download Stingray</h4>
+Stingray can be downloaded and installed via the Python Package Index, conda, or the source code straight from GitHub.
+The procedures for each of these routes are in <a alt="Stingray: ReadTheDocs" href="https://stingray.readthedocs.io/en/latest/stingray/docs/install.html">the docs</a>!
 
 <h4><a id="how-to-get-involved" class="anchor" href="#how-to-get-involved" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to get involved</h4>
 
@@ -49,23 +53,22 @@ First, read through the <a alt="Stingray: README" href="https://github.com/Sting
 Then, fork the <a alt="Stingray: stingray repository" href="https://github.com/StingraySoftware/stingray">stingray</a> and <a alt="Stingray: notebook repository" href="https://github.com/StingraySoftware/notebooks">notebooks</a> repositories (if you need a primer on GitHub and git version control, <a alt="Git tutorials for beginners" href="http://sixrevisions.com/resources/git-tutorials-beginners/">look here</a>) and work your way through the Jupyter notebook tutorials for the main modules.
 Once you've familiarized yourself with the basics of Stingray, go to the <a alt="Stingray: issues" href="https://github.com/stingraysoftware/stingray/issues">Stingray issues page</a> and try to tackle one!
 Other ways to get involved are outlined on the <a alt="Timelab project ideas" href="http://timelabtechnologies.com/ideas.html">project ideas page</a>, along with some astrophysical background/motivation.</p>
-<p>For organizing and coordinating the software development, we have a Slack group and a mailing list -- please use <a alt="Join Stingray on Slack" href="https://stingray-slack.herokuapp.com/">this link for Slack</a> or send <a alt="Stingray: people" href="https://github.com/orgs/StingraySoftware/people">one of us</a> an email to join. Students interested in Stingray projects for Google Summer of Code, please join our Slack and check out the pinned posts!</p>
+<p>For organizing and coordinating the software development, we have a Slack workspace -- please use <a alt="Join Stingray on Slack" href="https://stingray-slack.herokuapp.com/">this link for Slack</a> or send <a alt="Stingray: people" href="https://github.com/orgs/StingraySoftware/people">one of us</a> an email to join. Students interested in Stingray projects for Google Summer of Code, please join our Slack and check out the pinned posts!</p>
 
 <h4><a id="citing-stingray" class="anchor" href="#citing-stingray" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Citing Stingray</h4>
-<p>If you use Stingray, please cite us in papers and other projects! Citations are still the main currency of the academic world, and pointing to citations is the best way to help us ensure that Stingray continues to be supported and we can continue working on it!
+<p>If you use Stingray, <em>please cite us in papers and other projects!</em>
+Citations are still the main currency of the academic world, and pointing to citations is <em>the</em> best way to help us ensure that Stingray continues to be supported and we can continue working on it!
 <br/><a alt="Stingray paper" href="https://ui.adsabs.harvard.edu/#abs/2019arXiv190107681H/abstract">Huppenkothen et al. 2019, ApJ, submitted (arXiv:1901.07681)</a>
 <br/><a href="http://ascl.net/1608.001"><img src="https://img.shields.io/badge/ascl-1608.001-blue.svg?colorB=262255" alt="ascl:1608.001" /></a></p>
 
 <h4><a id="presentations" class="anchor" href="#presentations" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Presentations</h4>
-<p>
-<ul>
+<p><ul>
     <li>(upcoming) AAS 17th High-Energy Astrophysics Division meeting 2019</li>
     <li><a alt="Stingray EWASS2018" href="http://ascl.net/wordpress/2018/05/24/software-in-astronomy-symposium-presentations-part-3/">European Week of Astronomy and Space Science 2018</a></li>
     <li><a alt="Stingray HEAD17" href="https://speakerdeck.com/abigailstev/stingray-open-source-spectral-timing-software">AAS 16th High-Energy Astrophysics Division meeting 2017</a></li>
     <li><a alt="Stingray EWASS17" href="http://ascl.net/wordpress/2017/07/23/special-session-on-and-about-software-at-ewass-2017/">European Week of Astronomy and Space Science 2017</a></li>
     <li><a alt="Stingray PyAstro16" href="https://speakerdeck.com/abigailstev/stingray-pyastro16">Python in Astronomy 2016</a></li>
-</ul>
-</p>
+</ul></p>
 
 <h4><a id="acknowledgements" class="anchor" href="#acknowledgements" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Acknowledgements</h4>
 <p>Thank you to JetBrains for the free use of <a alt="JetBrains PyCharm" href="https://www.jetbrains.com/pycharm/">PyCharm</a>.</p>
